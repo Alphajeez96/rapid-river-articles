@@ -1,11 +1,9 @@
+import { RouterProvider } from 'react-router-dom';
+import router from './routes';
 import './assets/styles/app.scss';
 
 function App() {
-  return (
-    <>
-      <p className="text-red-300">djdj</p>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
