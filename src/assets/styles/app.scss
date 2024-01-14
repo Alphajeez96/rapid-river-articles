@@ -44,15 +44,15 @@ body {
     height: calc(100vh - 10rem);
   }
 
-  input {
-    @apply text-sm font-semibold bg-primary-white rounded-full h-11 px-4 w-full transition-all duration-300;
+  .search-input {
+    @apply text-sm text-primary-black font-semibold bg-primary-white rounded-full h-11 pl-11 w-full transition-all duration-300;
 
     &:focus {
       outline: none;
     }
 
     &:hover {
-      @apply border-2 border-primary-green  bg-primary-white;
+      @apply opacity-80;
     }
 
     &::placeholder {
@@ -65,7 +65,7 @@ body {
   }
 }
 .feeds-card {
-  @apply h-[452px] w-[31%] rounded-xl bg-primary-white relative cursor-pointer;
+  @apply h-[452px] w-[31%] rounded-xl bg-primary-white relative;
   box-shadow: 0px 8px 16px -4px rgba(52, 132, 120, 0.3);
 
   img {
@@ -82,7 +82,7 @@ body {
 }
 
 .button {
-  @apply h-11 bg-primary-green rounded-full text-primary-white flex justify-center items-center text-sm font-semibold outline-none focus:outline-none duration-300;
+  @apply h-11 bg-primary-green rounded-full text-primary-white flex justify-center items-center text-sm font-semibold outline-none focus:outline-none duration-300 px-5;
 
   &:hover {
     @apply opacity-75;
