@@ -123,7 +123,7 @@ const Home: React.FC = () => {
             <input
               type="text"
               placeholder="Search by author or title"
-              className="search-input"
+              className="input search-input"
               value={searchQuery}
               onChange={(e) => setsearchQuery(e.target.value)}
             />

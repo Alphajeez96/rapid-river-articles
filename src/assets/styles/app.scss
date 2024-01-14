@@ -32,6 +32,22 @@ body {
   }
 }
 
+.input {
+  @apply h-11 text-sm text-primary-black font-semibold bg-primary-white w-full transition-all duration-300;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    @apply text-primary-grey;
+
+    &:hover {
+      @apply opacity-80;
+    }
+  }
+}
+
 .feeds-holder {
   @apply bg-primary-backdrop p-8 rounded-t-3xl;
 
@@ -41,22 +57,10 @@ body {
   }
 
   .search-input {
-    @apply text-sm text-primary-black font-semibold bg-primary-white rounded-full h-11 pl-11 w-full transition-all duration-300;
-
-    &:focus {
-      outline: none;
-    }
+    @apply rounded-full  pl-11;
 
     &:hover {
       @apply opacity-80;
-    }
-
-    &::placeholder {
-      @apply text-primary-grey;
-
-      &:hover {
-        @apply opacity-80;
-      }
     }
   }
 }
@@ -95,4 +99,44 @@ body {
 
 .empty-text {
   @apply text-primary-black font-semibold flex flex-col justify-center items-center w-full;
+}
+
+.form-holder {
+  @apply w-full;
+
+  .card {
+    @apply bg-primary-backdrop p-8 rounded-3xl w-1/2 mx-auto mt-8;
+
+    .header {
+      @apply text-heading1 text-primary-black font-semibold text-center pb-12;
+    }
+
+    .form-group {
+      @apply mb-8 flex flex-col w-full;
+
+      label {
+        @apply block text-sm text-primary-grey pb-2 font-medium cursor-pointer;
+      }
+
+      input {
+        @apply rounded-lg px-4;
+
+        &:hover {
+          @apply border-2 border-primary-green rounded-lg bg-primary-white;
+        }
+      }
+
+      textarea {
+        @apply h-32 p-4 text-sm resize-none rounded-lg;
+
+        &:hover {
+          @apply border-2 border-primary-green rounded-lg bg-primary-white;
+        }
+      }
+
+      .invalid {
+        @apply border-2 border-primary-red bg-light-red;
+      }
+    }
+  }
 }
