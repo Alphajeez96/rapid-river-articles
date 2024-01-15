@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
 
 interface Payload {
   name: string;
@@ -79,11 +78,11 @@ const ArticleForm: React.FC = () => {
         },
       });
 
-      toast.success('Article Created!');
+      // test purpose, should be replaced by a proper notification system
+      alert('Article Created!');
       setPayload(defaultPayload);
     } catch (err) {
       console.log('err::', err);
-      toast.error('An error Occurred');
     } finally {
       setLoading(false);
     }
@@ -91,8 +90,6 @@ const ArticleForm: React.FC = () => {
 
   return (
     <>
-      <ToastContainer />
-
       <div className="form-holder">
         <Link to="/">
           {' '}

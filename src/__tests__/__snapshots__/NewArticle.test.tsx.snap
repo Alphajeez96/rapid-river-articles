@@ -1,0 +1,356 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Renders the Article page > snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="form-holder"
+      >
+        <a
+          href="/"
+        >
+           
+          <button
+            class="h-11 w-11 rounded-full bg-primary-white flex items-center justify-center"
+          >
+            <img
+              alt="caret"
+              src="/src/assets/images/caret-left.svg"
+            />
+          </button>
+        </a>
+        <form
+          class="card"
+          title="<input type="title" id="title" class="input " value="" name="title">"
+        >
+          <h2
+            class="header"
+          >
+            Create New Article
+          </h2>
+          <div
+            class="flex gap-8 w-full"
+          >
+            <div
+              class="form-group"
+            >
+              <label
+                for="name"
+              >
+                Name
+              </label>
+              <input
+                class="input "
+                id="name"
+                name="name"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="input "
+                id="email"
+                name="email"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="flex gap-8 w-full"
+          >
+            <div
+              class="form-group"
+            >
+              <label
+                for="phone"
+              >
+                Phone
+              </label>
+              <input
+                class="input "
+                id="phone"
+                name="phone"
+                type="tel"
+                value=""
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="url"
+              >
+                Website
+              </label>
+              <input
+                class="input "
+                id="url"
+                name="website"
+                type="url"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="title"
+            >
+              Title
+            </label>
+            <input
+              class="input "
+              id="title"
+              name="title"
+              type="title"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group relative"
+          >
+            <label
+              for="article"
+            >
+              Article
+            </label>
+            <textarea
+              class="input "
+              id="article"
+              name="body"
+            />
+            <div
+              class="absolute bottom-3 right-3"
+            >
+              <p
+                class="text-primary-grey text-xs font-medium"
+              >
+                 
+                0
+                 /
+                250
+              </p>
+            </div>
+          </div>
+          <button
+            class="button w-full h-14"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="form-holder"
+    >
+      <a
+        href="/"
+      >
+         
+        <button
+          class="h-11 w-11 rounded-full bg-primary-white flex items-center justify-center"
+        >
+          <img
+            alt="caret"
+            src="/src/assets/images/caret-left.svg"
+          />
+        </button>
+      </a>
+      <form
+        class="card"
+        title="<input type="title" id="title" class="input " value="" name="title">"
+      >
+        <h2
+          class="header"
+        >
+          Create New Article
+        </h2>
+        <div
+          class="flex gap-8 w-full"
+        >
+          <div
+            class="form-group"
+          >
+            <label
+              for="name"
+            >
+              Name
+            </label>
+            <input
+              class="input "
+              id="name"
+              name="name"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="email"
+            >
+              Email
+            </label>
+            <input
+              class="input "
+              id="email"
+              name="email"
+              type="email"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="flex gap-8 w-full"
+        >
+          <div
+            class="form-group"
+          >
+            <label
+              for="phone"
+            >
+              Phone
+            </label>
+            <input
+              class="input "
+              id="phone"
+              name="phone"
+              type="tel"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              for="url"
+            >
+              Website
+            </label>
+            <input
+              class="input "
+              id="url"
+              name="website"
+              type="url"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="form-group"
+        >
+          <label
+            for="title"
+          >
+            Title
+          </label>
+          <input
+            class="input "
+            id="title"
+            name="title"
+            type="title"
+            value=""
+          />
+        </div>
+        <div
+          class="form-group relative"
+        >
+          <label
+            for="article"
+          >
+            Article
+          </label>
+          <textarea
+            class="input "
+            id="article"
+            name="body"
+          />
+          <div
+            class="absolute bottom-3 right-3"
+          >
+            <p
+              class="text-primary-grey text-xs font-medium"
+            >
+               
+              0
+               /
+              250
+            </p>
+          </div>
+        </div>
+        <button
+          class="button w-full h-14"
+        >
+          Create
+        </button>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -25,6 +25,12 @@ yarn dev
 yarn build
 ```
 
+### Test with Vites
+
+```sh
+yarn test
+```
+
 ### Lint with [ESLint](https://eslint.org/)
 
 ````sh
