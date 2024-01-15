@@ -25,7 +25,7 @@ yarn dev
 yarn build
 ```
 
-### Test with Vites
+### Test with Vite
 
 ```sh
 yarn test
